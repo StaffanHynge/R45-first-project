@@ -29,18 +29,27 @@ ul {
 li {
     display: inline-block;
     margin: 2%;
+    
 }
 
 a {
     color: red;
-    text-decoration: none; 
+    text-decoration: none;
+    
 }
 
 /* Style for images */
 
 div {
     background: url('../css/images/Studio\ 1.JPG');
-    height: 100vh;
+    height: 80vh;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+/* Style for footer */
+
+footer {
+    background-color: aqua;
+    height: 80px;
 }
