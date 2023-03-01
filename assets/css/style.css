@@ -4,6 +4,43 @@
     border: none;
 }
 
-h1 {
+header {
+    background-color: aqua;
+}
+
+#logo {
+    font-size: 300%;
+    text-align: center;
     color: orange
+    
+    
+}
+
+h1 {
+    letter-spacing: 8px;
+    margin: 0 auto; 
+}
+
+ul {
+    text-align: center;
+    font-size: 200%;
+}
+
+li {
+    display: inline-block;
+    margin: 2%;
+}
+
+a {
+    color: red;
+    text-decoration: none; 
+}
+
+/* Style for images */
+
+div {
+    background: url('../css/images/Studio\ 1.JPG');
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
