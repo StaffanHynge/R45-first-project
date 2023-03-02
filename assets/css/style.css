@@ -1,55 +1,49 @@
+body, html {
+    min-height: 100%;
+}
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-header {
-    background-color: aqua;
-}
-
-#logo {
-    font-size: 300%;
-    text-align: center;
-    color: orange
-    
-    
-}
-
-h1 {
-    letter-spacing: 8px;
-    margin: 0 auto; 
-}
-
-ul {
-    text-align: center;
-    font-size: 200%;
-}
-
-li {
-    display: inline-block;
-    margin: 2%;
-    
-}
-
-a {
-    color: red;
-    text-decoration: none;
-    
-}
-
-/* Style for images */
-
-div {
-    background: url('../css/images/Studio\ 1.JPG');
-    height: 80vh;
-    background-size: contain;
+body {
+    background: url('../css/images/soundtrade.jpeg');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-/* Style for footer */
-
-footer {
-    background-color: aqua;
-    height: 80px;
+.top-header {
+    font-size: 280%;
+    color: #fff;
+    
 }
+
+/* style for the links */
+
+.years {
+    font-size: 100%;
+    
+    
+}
+
+.years, .top-header {
+    line-height: 150px;
+    
+}
+
+.years li {
+    margin: 2%;
+    list-style-type: none;
+    
+}
+
+.years a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
