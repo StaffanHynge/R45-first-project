@@ -15,23 +15,27 @@ body {
 }
 
 .top-header {
-    display:flex;
+    
     margin-top: 2%;
+    width: 100%;
 }
 
 .title {
+    text-align: center;
     font-size: 280%;
     color: #fff;
     background-color: black;
-    flex: 5;
+    
 }
 
 /* style for the links */
-
+/* Flexcontainer for the links */
 .years {
     font-size: 100%;
     background-color: green;
     display: flex;
+    justify-content: space-around;
+    width: 97%;
     
 }
 
@@ -39,7 +43,7 @@ body {
 .years li {
     margin: 2%;
     list-style-type: none;
-    flex: 3;
+    
 }
 
 .years a {
@@ -48,6 +52,28 @@ body {
     
 }
 
+/* to wrap in the middle image and content */
+/* flexcontainer settings*/
+.history {
+    margin-left: 25%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 50%;
+    background-color: yellow;
+}
+/* Settings for the image */
+.pictures {
+    width: 300px;
+    height:300px;
+    border-radius: 150px;
+}
+
+.history-text {
+    margin-top: 10%;
+    margin-left: 2%;
+}
 
 
 
