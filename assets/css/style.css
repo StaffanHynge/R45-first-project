@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fauna+One&family=Playfair+Display:wght@900&display=swap');
+
 body, html {
     min-height: 100%;
 }
@@ -9,6 +11,7 @@ body, html {
 }
 
 body {
+    font-family: fauna one;
     background: url('../css/images/soundtrade.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,13 +58,13 @@ body {
 /* to wrap in the middle image and content */
 /* flexcontainer settings*/
 .history {
-    margin-left: 25%;
-    margin-top: 4%;
+    margin-left: 20%;
+    margin-top: 20%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     width: 50%;
-    background-color: yellow;
+    
 }
 /* Settings for the image */
 .pictures {
@@ -71,6 +74,7 @@ body {
 }
 
 .history-text {
+    font-family: playfair display;
     margin-top: 10%;
     margin-left: 2%;
 }
