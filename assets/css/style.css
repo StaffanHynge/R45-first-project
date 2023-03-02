@@ -15,33 +15,37 @@ body {
 }
 
 .top-header {
+    display:flex;
+    margin-top: 2%;
+}
+
+.title {
     font-size: 280%;
     color: #fff;
-    
+    background-color: black;
+    flex: 5;
 }
 
 /* style for the links */
 
 .years {
     font-size: 100%;
-    
+    background-color: green;
+    display: flex;
     
 }
 
-.years, .top-header {
-    line-height: 150px;
-    
-}
 
 .years li {
     margin: 2%;
     list-style-type: none;
-    
+    flex: 3;
 }
 
 .years a {
     color: #fff;
     text-decoration: none;
+    
 }
 
 
