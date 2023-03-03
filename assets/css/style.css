@@ -11,10 +11,11 @@ body, html {
 }
 
 body {
-    font-family: fauna one;
+    font-family: Helvetica, sans-serif;
     background: url('../css/images/soundtrade.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    vertical-align: middle;
 }
 
 .top-header {
@@ -52,14 +53,17 @@ body {
 .years a {
     color: #fff;
     text-decoration: none;
-    
+}
+
+.years a:hover {
+    border-bottom: 4px solid #fff;
 }
 
 /* to wrap in the middle image and content */
 /* flexcontainer settings*/
 .history {
     margin-left: 20%;
-    margin-top: 20%;
+    margin-top: 8%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -75,9 +79,12 @@ body {
 
 .history-text {
     font-family: playfair display;
-    margin-top: 10%;
+    margin-top: 2%;
     margin-left: 2%;
+    color: #fff;
 }
 
-
+footer {
+    margin-top: 200px;
+}
 
