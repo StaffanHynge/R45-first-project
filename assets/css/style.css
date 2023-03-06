@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fauna+One&family=Playfair+Display:wght@900&display=swap');
 
 body, html {
-    min-height: 100%;
+   height: 100%;
 }
 
 * {
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 /*general settings for the body */
 body {
@@ -103,9 +104,9 @@ footer {
     display: flex; 
     flex-wrap: wrap;
     gap: 2em;
-    width: 70%; 
+    width: 100%; 
     padding-top: 5%;
-    padding-left: 15%;
+    padding-left: 10%;
     justify-content: space-evenly;
     font-family: playfair display;
     color: #fff;
@@ -115,6 +116,11 @@ footer {
 .contact-items {
     display: flex;
     flex-direction: column;
+}
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 /* flex settings for the p-elements */
 .contact p {
@@ -131,15 +137,20 @@ footer {
 .contact-social {
     list-style-type: none;
     font-size: 120%;
+    display:flex; 
+    flex-direction: column;
+    justify-content: space-between;
 }
 /* Hover style for the sociallinks */
 .contact-social a:hover {
     color: #bf2323;
 }
 /* positioning for the map */
-iframe {
-    padding-left: 37%;
-}
+
+.map {
+    display: block;
+    justify-content: center;
+    padding-left: 40%;
 
 /* To-dos: 
 Position everything better
