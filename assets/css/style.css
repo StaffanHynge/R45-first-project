@@ -12,35 +12,44 @@ body, html {
 
 body {
     font-family: Helvetica, sans-serif;
+    background-color: rgba(10, 2, 17, 0.724);
+}
+/* changes for size and position of background-images */
+.main-image {
+    padding: 5px;
     background: url('../css/images/soundtrade.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    vertical-align: middle;
+    background-position: center;
+}
+
+.image-2 {
+    padding: 5px;
+    background: url('../css/images/mixerbord\ 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .top-header {
-    
     margin-top: 2%;
-    width: 100%;
+    width: 100%; 
 }
 
 .title {
     text-align: center;
     font-size: 280%;
     color: #fff;
-    background-color: black;
     
 }
 
 /* style for the links */
 /* Flexcontainer for the links */
 .years {
-    font-size: 100%;
-    background-color: green;
+    font-size: 150%;
     display: flex;
-    justify-content: space-around;
-    width: 97%;
-    
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 
@@ -59,29 +68,32 @@ body {
     border-bottom: 4px solid #fff;
 }
 
+,years a:active {
+    border-bottom: 4px solid #fff;
+}
+
 /* to wrap in the middle image and content */
 /* flexcontainer settings*/
 .history {
-    margin-left: 20%;
-    margin-top: 8%;
+    margin-left: 25%;
+    margin-right: 25%
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    width: 50%;
-    
-}
-/* Settings for the image */
-.pictures {
-    width: 300px;
-    height:300px;
-    border-radius: 150px;
+    width: 50%; 
 }
 
 .history-text {
     font-family: playfair display;
-    margin-top: 2%;
-    margin-left: 2%;
+    margin-top: 20%;
     color: #fff;
+}
+/* Settings for the image */
+/* i am not using that image at the moment */
+.pictures {
+    width: 300px;
+    height:300px;
+    border-radius: 150px;
 }
 
 footer {
