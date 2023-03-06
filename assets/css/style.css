@@ -14,7 +14,7 @@ body {
     font-family: Helvetica, sans-serif;
     background-color: rgba(10, 2, 17, 0.724);
 }
-/* changes for size and position of background-images */
+/* changes for size and position of background-image 1 */
 .main-image {
     padding: 5px;
     background: url('../css/images/soundtrade.jpeg');
@@ -22,7 +22,7 @@ body {
     background-size: cover;
     background-position: center;
 }
-
+/* changes for size and position of background-image 2 */
 .image-2 {
     padding: 5px;
     background: url('../css/images/mixerbord\ 2.jpg');
@@ -30,12 +30,12 @@ body {
     background-size: cover;
     background-position: center;
 }
-
+/* Style and position for the topheader */
 .top-header {
     margin-top: 2%;
     width: 100%; 
 }
-
+/* Style and postion for the topheader text */
 .title {
     text-align: center;
     font-size: 280%;
@@ -43,7 +43,7 @@ body {
     
 }
 
-/* style for the links */
+
 /* Flexcontainer for the links */
 .years {
     font-size: 150%;
@@ -52,18 +52,18 @@ body {
     justify-content: space-evenly;
 }
 
-
+/* style and positioning for the links */
 .years li {
     margin: 2%;
     list-style-type: none;
     
 }
-
+/* style for the links */
 .years a {
     color: #fff;
     text-decoration: none;
 }
-
+/* style for the links */
 .years a:hover {
     border-bottom: 4px solid #fff;
 }
@@ -73,7 +73,7 @@ body {
 }
 
 /* to wrap in the middle image and content */
-/* flexcontainer settings*/
+/* flexcontainer settings for the content in the middle*/
 .history {
     margin-left: 25%;
     margin-right: 25%
@@ -82,10 +82,10 @@ body {
     align-items: flex-start;
     width: 50%; 
 }
-
+/* Style for the content text */
 .history-text {
     font-family: playfair display;
-    margin-top: 20%;
+    padding-top: 30%;
     color: #fff;
 }
 /* Settings for the image */
@@ -96,7 +96,41 @@ body {
     border-radius: 150px;
 }
 
+/* Position for the footer */
 footer {
-    margin-top: 200px;
+    padding-top: 10% ;
 }
 
+/* Style and positioning for the contact.html page */
+.contact {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 2em;
+    width: 70%; 
+    padding-top: 5%;
+    padding-left: 10%;
+    justify-content: space-evenly;
+    font-family: playfair display;
+    color: #fff;
+    font-size: 120%;
+}
+/* flex settings for the adress, email and phone */
+.contact-items {
+    display: flex;
+    flex-direction: column;
+}
+/* flex settings for the p-elements */
+.contact p {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+/* flex settings for the a-elements */
+.contact a {
+    flex-grow: 1;
+    flex-shrink: 1;
+    color: #fff;
+}
+/* positioning for the map */
+iframe {
+    padding-left: 30%;
+}
