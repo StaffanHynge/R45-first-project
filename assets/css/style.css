@@ -87,7 +87,7 @@ body {
 }
 /* Position for the footer */
 footer {
-    margin-top: 10%;
+    margin-top: 200px;
 }
 
 /* Media set queries for the indexpage */ 
@@ -122,8 +122,21 @@ footer {
     background-blend-mode: multiply;
 }
 footer {
-    margin-top: 12%;
+    margin-top: 350px;
 }
+}
+@media screen and (max-height: 900px) {
+    .main-image {
+        padding: 5px;
+        height: 1000px;
+        background: url(../css/images/soundtrade.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: rgba(73, 30, 112, 0.724);
+        background-blend-mode: multiply;
+    }
+
 }
 /* Style and positioning for the contact.html page */
 /* changes for size and position of background-image 2 */
@@ -191,7 +204,7 @@ footer {
     
 }
 
-    /* Media set queries for the indexpage */ 
+    /* Media set queries for the contactpage */ 
      @media screen and (max-width: 650px) {
         .contact {
             display: flex; 
@@ -220,6 +233,20 @@ footer {
             height: 100%;
         }
      }
+     @media screen and (max-height: 900px) {
+        .image-2 {
+            padding: 5px;
+            background: url('../css/images/mixerbord\ 2.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-color: rgba(73, 30, 112, 0.724);
+            background-blend-mode: multiply;
+            height: 1000px;
+        }
+     }
+
+     /* Gallery-page */
 
 
 
