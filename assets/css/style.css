@@ -247,22 +247,12 @@ footer {
      }
 
      /* Gallery-page */
-
-
-
-
-
-
-
-
-
-
      .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: rgba(60, 15, 65, 0.294);
+        background-color: rgba(101, 50, 57, 0.828);
      }
 
      .container .box {
