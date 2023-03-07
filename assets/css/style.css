@@ -18,6 +18,7 @@ body {
 /* changes for size and position of background-image 1 */
 .main-image {
     padding: 5px;
+    height: 100%;
     background: url('../css/images/soundtrade.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,7 +66,7 @@ body {
 /* flexcontainer settings for the content in the middle*/
 .history {
     margin-left: 21%;
-    margin-right: 22%
+    margin-right: 22%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -86,7 +87,43 @@ body {
 }
 /* Position for the footer */
 footer {
-    padding-top: 10% ;
+    margin-top: 10%;
+}
+
+/* Media set queries for the indexpage */ 
+@media screen and (max-width: 650px) {
+.title {
+    text-align: center;
+    font-size: 150%;
+    color: #bf2323;
+}
+.years {
+    font-size: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.history {
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 50%; 
+    font-size: 80%;
+}
+.main-image {
+    padding: 5px;
+    height: 100%;
+    background: url(../css/images/soundtrade.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(73, 30, 112, 0.724);
+    background-blend-mode: multiply;
+}
+footer {
+    margin-top: 46%;
+}
 }
 /* Style and positioning for the contact.html page */
 /* changes for size and position of background-image 2 */
@@ -151,6 +188,40 @@ footer {
     display: block;
     justify-content: center;
     padding-left: 40%;
+}
+
+    /* Media set queries for the indexpage */ 
+     @media screen and (max-width: 650px) {
+        .contact {
+            display: flex; 
+            flex-direction: column;
+            gap: 2em;
+            width: 100%; 
+            padding-top: 25%;
+            padding-left: 33%;
+            justify-content: space-evenly;
+            font-family: playfair display;
+            color: #fff;
+            font-size: 110%;
+        }
+        .map {
+            display: none;
+            justify-content: center;
+        }
+        .image-2 {
+            padding: 5px;
+            background: url('../css/images/mixerbord\ 2.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-color: rgba(73, 30, 112, 0.724);
+            background-blend-mode: multiply;
+            height: 100%;
+        }
+     }
+       
+    
+    
 
 /* To-dos: 
 Position everything better
