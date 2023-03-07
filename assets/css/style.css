@@ -247,6 +247,8 @@ footer {
      }
 
      /* Gallery-page */
+     /* Settings for the layout of the gallerypage*/
+     /* Flexbox and colorsettings for the whole page */
      .container {
         display: flex;
         flex-direction: column;
@@ -272,6 +274,7 @@ footer {
         padding-bottom: 15px;
         border-radius: 5px;
      }
+     /*Mediaqueries for the gallerypage */
 
      @media screen and (max-width: 750px) {
         .container .box {
@@ -283,12 +286,5 @@ footer {
      }
     
 
-/* To-dos: 
-Position everything better
-Add the right content
-Set responsive design with mediaqueries 
-Adjust the filter settings for the background
-Set the final font-family, sizes and colors
-*/
 
 
