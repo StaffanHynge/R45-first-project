@@ -219,8 +219,42 @@ footer {
             height: 100%;
         }
      }
+
+
+
+
+
+
+
+
+
+
+     .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(15, 14, 16, 0.724);
+     }
+
+     .container .box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+     }
+
+     .container .box .gallery {
+        display: flex;
+        flex-direction: column;  
+        width: 33%;
+     }
        
-    
+     .container .box .gallery img {
+        width: 100%;
+        padding-bottom: 15px;
+        border-radius: 5px;
+     }
     
 
 /* To-dos: 
