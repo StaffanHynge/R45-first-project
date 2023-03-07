@@ -65,17 +65,17 @@ body {
 /* to wrap in the middle image and content */
 /* flexcontainer settings for the content in the middle*/
 .history {
-    margin-left: 21%;
+    margin-left: 25%;
     margin-right: 22%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     width: 50%; 
+    padding-top: 7%;
 }
 /* Style for the content text */
 .history-text {
     font-family: playfair display;
-    padding-top: 30%;
     color: #fff;
 }
 /* Settings for the image */
@@ -95,7 +95,7 @@ footer {
 .title {
     text-align: center;
     font-size: 150%;
-    color: #bf2323;
+    
 }
 .years {
     font-size: 100%;
@@ -122,7 +122,7 @@ footer {
     background-blend-mode: multiply;
 }
 footer {
-    margin-top: 46%;
+    margin-top: 12%;
 }
 }
 /* Style and positioning for the contact.html page */
@@ -135,6 +135,7 @@ footer {
     background-position: center;
     background-color: rgba(73, 30, 112, 0.724);
     background-blend-mode: multiply;
+    height: 100%;
 }
 /* Style and positioning for the contact division */
 .contact {
@@ -187,7 +188,7 @@ footer {
 .map {
     display: block;
     justify-content: center;
-    padding-left: 40%;
+    
 }
 
     /* Media set queries for the indexpage */ 
@@ -234,14 +235,13 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: rgba(15, 14, 16, 0.724);
+        background-color: rgba(60, 15, 65, 0.294);
      }
 
      .container .box {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        
      }
 
      .container .box .gallery {
@@ -254,6 +254,15 @@ footer {
         width: 100%;
         padding-bottom: 15px;
         border-radius: 5px;
+     }
+
+     @media screen and (max-width: 750px) {
+        .container .box {
+            flex-direction: column;
+        }
+        .container .box .gallery { 
+            width: 100%;
+         }
      }
     
 
