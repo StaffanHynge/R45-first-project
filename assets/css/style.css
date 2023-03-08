@@ -21,7 +21,7 @@ body {
 .main-image {
     padding: 5px;
     height: 100%;
-    background: url('../css/images/soundtrade.jpeg');
+    background: url('../images/soundtrade.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -94,7 +94,7 @@ footer {
 /* changes for size and position of background-image 2 */
 .image-2 {
     padding: 5px;
-    background: url('../css/images/mixerbord2.jpg');
+    background: url('../images/mixerbord2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
