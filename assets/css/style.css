@@ -71,7 +71,6 @@ body {
     justify-content: space-around;
     align-items: flex-start;
     width: 50%; 
-    padding-top: 7%;
 }
 /* Style for the content text */
 .history-text {
@@ -87,7 +86,12 @@ body {
 }
 /* Position for the footer */
 footer {
-    margin-top: 200px;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 /* Media set queries for the indexpage */ 
@@ -99,20 +103,17 @@ footer {
     font-size: 100%;
 }
 .history {
-    margin-left: 30%;
+    margin: 0 auto;
+    padding: 20px; 
     font-size: 80%;
 }
-
-footer {
-    margin-top: 350px;
 }
-}
-@media screen and (max-height: 900px) {
-    .main-image {
-        height: 1000px;   
+@media screen and (max-width: 350px) {
+    .history {
+        font-size: 70%;
     }
-
 }
+
 /* Style and positioning for the contact.html page */
 /* changes for size and position of background-image 2 */
 .image-2 {
@@ -134,6 +135,7 @@ footer {
     padding-top: 5%;
     padding-left: 10%;
     justify-content: space-evenly;
+    align-items: center;
     font-family: playfair display;
     color: #fff;
     font-size: 140%;
@@ -149,15 +151,10 @@ footer {
     justify-content: space-between;
 }
 /* flex settings for the p-elements */
-.contact p {
-    flex-grow: 1;
-    flex-shrink: 1;
-}
 /* flex settings for the a-elements */
 .contact a {
-    flex-grow: 1;
-    flex-shrink: 1;
     color: #fff;
+    text-decoration: none;
 }
 /* Style for the social links */
 .contact-social {
@@ -176,25 +173,38 @@ footer {
 .map {
     display: block;
     justify-content: center;
+    
+}
+.map-2 {
+    display: none;
 }
 
     /* Media set queries for the contactpage */ 
-     @media screen and (max-width: 840px) {
+     @media screen and (max-width: 880px) {
         .contact {
             display: flex; 
             flex-direction: column;
-            padding-top: 25%;
-            padding-left: 38%;
+            align-items: center;
+            font-size: 110%;
+        }
+        .contact-social {
+            margin-right: 10px;
             font-size: 110%;
         }
         .map {
             display: none;
+        }  
+        .map-2 {
+            display: block;
+            justify-content: center;
         }
-        
      }
-     @media screen and (max-height: 900px) {
-        .image-2 {
-            height: 1000px;
+     @media screen and (max-width: 500px) {
+        .contact {
+            font-size: 80%;
+        }
+        .contact-social {
+            font-size: 80%;
         }
      }
 
