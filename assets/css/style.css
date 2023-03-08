@@ -136,11 +136,13 @@ footer {
 }
 /* Style for the social links */
 .contact-social {
-    list-style-type: none;
     font-size: 120%;
     display:flex; 
     flex-direction: column;
     justify-content: space-between;
+}   
+.contact-social ul {
+    list-style-type: none;
 }
 /* Hover style for the sociallinks */
 .contact-social a:hover {
@@ -178,6 +180,9 @@ footer {
         width: 100%;
         padding-bottom: 15px;
         border-radius: 5px;
+     }
+     .footer {
+        position: fixed; 
      }
      /* Mediaqueries for all of the pages */
      /* Media set queries for the indexpage */ 

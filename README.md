@@ -1,6 +1,6 @@
 # R45
 
-R45 is a website to market a music hub and studio complex in Stockholm, Sweden.  The site is targeted to people who are interested to work and develop their own music and it provides them with information about this place. 
+R45 is a website to market a music hub and studio complex in Stockholm, Sweden. The site is targeted to people who are interested to work and develop their own music and it provides them with information about this place. 
  - Where it is.
  - How it looks. 
  - How to contact us.
@@ -35,7 +35,7 @@ It gives the user a look and feel to the place with these pictures.
 <img src="pictures/gallery1.png">
 
 ### Contact page
-This page includes an email, a phone number and address to the place.   It gives the user two different types of ways to contact us and also the location to visit us. 
+This page includes an email, a phone number and address to the place. It gives the user two different types of ways to contact us and also the location to visit us. 
 
 <img src="pictures/contact.png">
 
@@ -77,3 +77,10 @@ I also want to thank my mentor for the support on this project.
 The Galleryphotos are from the instagram page of [Soundtrade Studio](https://www.instagram.com/soundtradestudios/)
 
 The icons are from https://fontawesome.com/icons
+
+## Deployment
+### The site was deployed to GitHub pages. The steps to deploy are as follows:
+ * In the GitHub repository, navigate to the Settings tab  
+ * From the source section drop-down menu, select the main Branch
+ * Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+ * The live link can be found here -
