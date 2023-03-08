@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fauna+One&family=Playfair+Display:wght@900&display=swap');
-
+/*general settings for the project*/
 body, html {
    height: 100%;
 }
-
+/*general settings for the project*/
 * {
     margin: 0;
     padding: 0;
@@ -76,13 +76,7 @@ body {
 .history-text {
     font-family: playfair display;
     color: #fff;
-}
-/* Settings for the image */
-/* i am not using that image at the moment */
-.pictures {
-    width: 300px;
-    height:300px;
-    border-radius: 150px;
+    letter-spacing: 2px;
 }
 /* Position for the footer */
 footer {
@@ -93,29 +87,6 @@ footer {
     justify-content: center;
     width: 100%;
 }
-
-/* Media set queries for the indexpage */ 
-@media screen and (max-width: 650px) {
-.title {
-    font-size: 150%; 
-}
-.years {
-    font-size: 100%;
-}
-.history {
-    margin: 0 auto;
-    padding: 20px; 
-}
-.history-text {
-    font-size: 80%;
-}
-}
-@media screen and (max-width: 450px) {
-    .history-text {
-        font-size: 65%;
-    }
-}
-
 /* Style and positioning for the contact.html page */
 /* changes for size and position of background-image 2 */
 .image-2 {
@@ -171,45 +142,13 @@ footer {
     color: #bf2323;
 }
 /* positioning for the map */
-
 .map {
     display: block;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 .map-2 {
     display: none;
 }
-
-    /* Media set queries for the contactpage */ 
-     @media screen and (max-width: 880px) {
-        .contact {
-            display: flex; 
-            flex-direction: column;
-            align-items: center;
-            font-size: 110%;
-        }
-        .contact-social {
-            margin-right: 10px;
-            font-size: 110%;
-        }
-        .map {
-            display: none;
-        }  
-        .map-2 {
-            display: block;
-            justify-content: center;
-        }
-     }
-     @media screen and (max-width: 500px) {
-        .contact {
-            font-size: 80%;
-        }
-        .contact-social {
-            font-size: 80%;
-        }
-     }
-
      /* Gallery-page */
      /* Settings for the layout of the gallerypage*/
      /* Flexbox and colorsettings for the whole page */
@@ -220,34 +159,86 @@ footer {
         align-items: center;
         background-color: #762626e1
      }
-
      .container .box {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
      }
-
      .container .box .gallery {
         display: flex;
         flex-direction: column;  
         width: 33%;
-     }
-       
+     }  
      .container .box .gallery img {
         width: 100%;
         padding-bottom: 15px;
         border-radius: 5px;
      }
-     /*Mediaqueries for the gallerypage */
-
-     @media screen and (max-width: 750px) {
-        .container .box {
-            flex-direction: column;
-        }
-        .container .box .gallery { 
-            width: 100%;
-         }
+     /* Mediaqueries for all of the pages */
+     /* Media set queries for the indexpage */ 
+@media screen and (max-width: 650px) {
+    .title {
+        font-size: 150%; 
+    }
+    .years {
+        font-size: 100%;
+    }
+    .history {
+        margin: 0 auto;
+        padding: 20px; 
+    }
+    .history-text {
+        font-size: 80%;
+    }
+    }
+@media screen and (max-width: 450px) {
+    .history-text {
+        font-size: 65%;
      }
+    }
+@media screen and (max-width: 350px) {
+    .history-text {
+        font-size: 55%;
+     }
+    }
+    /* Mediaquery for the Gallerypage */
+@media screen and (max-width: 750px) {
+    .container .box {
+        flex-direction: column;
+     }
+     .container .box .gallery { 
+         width: 100%;
+     }
+    }
+    /* Media set queries for the contactpage */ 
+@media screen and (max-width: 880px) {
+    .contact {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        font-size: 110%;
+        }
+    .contact-social {
+        margin-right: 10px;
+        font-size: 110%;
+        }
+    .map {
+        display: none;
+        }  
+    .map-2 {
+        display: block;
+        justify-content: center;
+        }
+     }
+@media screen and (max-width: 500px) {
+    .contact {
+        font-size: 80%;
+        }
+    .contact-social {
+        font-size: 80%;
+        }
+     }
+
     
 
 
