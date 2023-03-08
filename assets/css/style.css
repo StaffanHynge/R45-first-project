@@ -105,12 +105,14 @@ footer {
 .history {
     margin: 0 auto;
     padding: 20px; 
+}
+.history-text {
     font-size: 80%;
 }
 }
-@media screen and (max-width: 350px) {
-    .history {
-        font-size: 70%;
+@media screen and (max-width: 450px) {
+    .history-text {
+        font-size: 65%;
     }
 }
 
@@ -118,7 +120,7 @@ footer {
 /* changes for size and position of background-image 2 */
 .image-2 {
     padding: 5px;
-    background: url('../css/images/mixerbord\ 2.jpg');
+    background: url('../css/images/mixerbord2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
