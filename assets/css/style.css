@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Fauna+One&family=Playfair+Display:wght@900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,300&family=Bebas+Neue&display=swap');
 /*general settings for the project*/
 body, html {
    height: 100%;
@@ -12,7 +14,7 @@ body, html {
 }
 /*general settings for the body */
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: bebas neue, sans-serif;
     background-color: rgba(10, 2, 17, 0.724);
 }
 /* changes for size and position of background-image 1 */
@@ -36,6 +38,7 @@ body {
     text-align: center;
     font-size: 280%;
     color: #fff;
+    letter-spacing: 2px;
 }
 /* Flexcontainer for the links */
 .years {
@@ -74,7 +77,7 @@ body {
 }
 /* Style for the content text */
 .history-text {
-    font-family: playfair display;
+    font-family: archivo, sans-serif;
     color: #fff;
     letter-spacing: 2px;
 }
@@ -109,7 +112,7 @@ footer {
     padding-left: 10%;
     justify-content: space-evenly;
     align-items: center;
-    font-family: playfair display;
+    font-family: archivo;
     color: #fff;
     font-size: 140%;
 }
@@ -122,12 +125,14 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    letter-spacing: 4px;
 }
 /* flex settings for the p-elements */
 /* flex settings for the a-elements */
 .contact a {
     color: #fff;
     text-decoration: none;
+    letter-spacing: 3px;
 }
 /* Style for the social links */
 .contact-social {
@@ -236,6 +241,10 @@ footer {
         }
     .contact-social {
         font-size: 80%;
+        }
+    .map-2 {
+        display: block;
+        justify-content: center;
         }
      }
 

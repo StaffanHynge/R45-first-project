@@ -1,9 +1,9 @@
 # R45
 
 R45 is a website to market a music hub and studio complex in Stockholm, Sweden.  The site is targeted to people who are interested to work and develop their own music and it provides them with information about this place. 
-Where it is.
-How it looks. 
-How to contact us.
+ - Where it is.
+ - How it looks. 
+ - How to contact us.
 
 <img src="pictures/screens.png">
 
