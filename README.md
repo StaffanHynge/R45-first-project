@@ -83,5 +83,5 @@ It gives the user a visible and guidable view to the location.
 ### The site was deployed to GitHub pages. The steps to deploy are as follows:
  * In the GitHub repository, navigate to the Settings tab  
  * From the source section drop-down menu, select the main Branch
- * Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+ * Once the main branch has been selected, press save and the page will be refreshed with a detailed ribbon display to indicate the successful deployment.
  * The live link can be found here -
