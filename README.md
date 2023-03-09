@@ -84,4 +84,4 @@ It gives the user a visible and guidable view to the location.
  * In the GitHub repository, navigate to the Settings tab  
  * From the source section drop-down menu, select the main Branch
  * Once the main branch has been selected, press save and the page will be refreshed with a detailed ribbon display to indicate the successful deployment.
- * The live link can be found here -
+ * The live link can be found here -  https://staffanhynge.github.io/R45-first-project/
